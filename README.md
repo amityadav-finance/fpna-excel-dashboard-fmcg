@@ -20,5 +20,4 @@ Excel PivotTables, Charts, Slicers, GETPIVOTDATA
 3. Review KPIs and charts
 
 ## Screenshots
-(https://github.com/amityadav-finance/fpna-excel-dashboard-fmcg/upload/main
-)
+(add files)
