@@ -21,5 +21,5 @@ Excel PivotTables, Charts, Slicers, GETPIVOTDATA
 
 ## Screenshots
 ![Dashboard](dashboard.png)
-![Budget_vs_Actual](budget_vs_actual.png)
+budget_vs_ actual.png
 ![Variance](variance.png)
