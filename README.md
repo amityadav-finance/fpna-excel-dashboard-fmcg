@@ -25,4 +25,4 @@ Excel PivotTables, Charts, Slicers, GETPIVOTDATA
 ![Budget vs Actual](budget_vs_actual.png)
 ![Variance](variance.png)
 ## File
-- FMCG_FP&A_Dashboard.xlsx
+- [Download Excel](FMCG_FP&A_Dashboard.xlsx)
