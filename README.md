@@ -20,4 +20,7 @@ Excel PivotTables, Charts, Slicers, GETPIVOTDATA
 3. Review KPIs and charts
 
 ## Screenshots
-(add files)
+(![Dashboard](dashboard.png)
+![Budget vs Actual](budget_vs_actual.png)
+![Variance](variance.png)
+)
