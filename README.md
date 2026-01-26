@@ -1,3 +1,4 @@
+> 📌 Dashboard preview below (use filters in Excel file).
 # FMCG FP&A Dashboard (Excel) — Budget vs Actual
 
 ## Overview
@@ -23,3 +24,5 @@ Excel PivotTables, Charts, Slicers, GETPIVOTDATA
 ![Dashboard](dashboard.png)
 ![Budget vs Actual](budget_vs_actual.png)
 ![Variance](variance.png)
+## File
+- FMCG_FP&A_Dashboard.xlsx
