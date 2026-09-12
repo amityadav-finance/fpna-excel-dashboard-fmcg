@@ -1,5 +1,15 @@
 # FMCG Budget vs Actual Analysis Dashboard
 
+## Dashboard Preview
+
+### Main Dashboard
+![Main Dashboard](dashboard.png)
+
+### Budget vs Actual Analysis
+![Budget vs Actual Analysis](budget_vs_actual.png)
+
+### Department-wise Analysis
+![Department-wise Analysis](department_analysis.png)
 ## EFOS Global Finance Hackathon 2026
 
 **Track 01: Financial Planning & Analysis**  
