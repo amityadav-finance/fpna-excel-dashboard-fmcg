@@ -102,6 +102,28 @@
       line-height: 1.8;
     }
 
+    /* Dashboard Preview */
+    .preview {
+      text-align: center;
+    }
+
+    .preview h3 {
+      color: #18345d;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    .preview img {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+      border: 1px solid #e1e5eb;
+    }
+
     footer {
       text-align: center;
       padding: 30px;
@@ -117,6 +139,14 @@
     @media (max-width: 500px) {
       .kpis {
         grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 30px;
+      }
+
+      header p {
+        font-size: 16px;
       }
     }
   </style>
@@ -144,6 +174,20 @@
       The analysis focuses on revenue, expenses, profit, profit margin,
       monthly budget variances and department-level transaction activity.
     </p>
+  </div>
+
+  <!-- Dashboard Screenshots -->
+  <div class="card preview">
+    <h2>Dashboard Preview</h2>
+
+    <h3>Main Dashboard</h3>
+    <img src="dashboard.png" alt="FMCG Budget vs Actual Main Dashboard">
+
+    <h3>Budget vs Actual Analysis</h3>
+    <img src="budget_vs_actual.png" alt="Budget vs Actual Analysis">
+
+    <h3>Department-wise Analysis</h3>
+    <img src="department_analysis.png" alt="Department-wise Analysis">
   </div>
 
   <div class="card">
@@ -245,7 +289,6 @@
     <p><strong>Amit Yadav</strong></p>
     <p>MBA (Finance & Marketing)</p>
     <p>United Institute of Management, Prayagraj</p>
-
   </div>
 
 </div>
