@@ -91,11 +91,14 @@ The dashboard consolidates monthly actuals and budget figures and presents the r
 ### Detailed Report
 [FMCG Budget vs Actual Report](FMCG_Budget_vs_Actual_Report.pdf)
 
+### Presentation
+[EFOS Finance Hackathon 2026 Presentation](EFOS_Finance_Hackathon_2026_Presentation.pptx)
+
 ## Author
 
 **Amit Yadav**  
 MBA (Finance & Marketing)  
-United Institute of Management, Prayagraj
+United Institute of Management.
 
 ---
 
