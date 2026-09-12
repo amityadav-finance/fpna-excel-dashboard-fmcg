@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FMCG Budget vs Actual Analysis | Amit Yadav</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1e2430;
+    }
+
+    header {
+      background: #18345d;
+      color: white;
+      padding: 45px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 38px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin: 6px;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #18345d;
+      margin-top: 0;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+
+    .kpi {
+      background: #f5f7fa;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .kpi h3 {
+      margin: 0 0 10px;
+      color: #5c6673;
+      font-size: 14px;
+    }
+
+    .kpi strong {
+      font-size: 25px;
+      color: #18345d;
+    }
+
+    .positive {
+      color: #168458 !important;
+      font-weight: bold;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 20px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      opacity: 0.9;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #5c6673;
+    }
+
+    @media (max-width: 800px) {
+      .kpis {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .kpis {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>FMCG Budget vs Actual Analysis</h1>
+  <p>Financial Planning & Analysis Dashboard</p>
+  <p>EFOS Global Finance Hackathon 2026 | Track 01 | Case 6</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Project Overview</h2>
+
+    <p>
+      This project presents an Excel-based FP&A dashboard designed to evaluate
+      budgeted versus actual financial performance of an FMCG business for FY 2025–26.
+    </p>
+
+    <p>
+      The analysis focuses on revenue, expenses, profit, profit margin,
+      monthly budget variances and department-level transaction activity.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Key Financial Performance</h2>
+
+    <div class="kpis">
+
+      <div class="kpi">
+        <h3>Revenue</h3>
+        <strong>₹1,278.31 L</strong>
+        <p class="positive">+0.26% vs Budget</p>
+      </div>
+
+      <div class="kpi">
+        <h3>Expense</h3>
+        <strong>₹614.49 L</strong>
+        <p class="positive">-0.10% vs Budget</p>
+      </div>
+
+      <div class="kpi">
+        <h3>Profit</h3>
+        <strong>₹663.82 L</strong>
+        <p class="positive">+0.59% vs Budget</p>
+      </div>
+
+      <div class="kpi">
+        <h3>Profit Margin</h3>
+        <strong>51.9%</strong>
+        <p class="positive">+0.2 pp vs Budget</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Key Findings</h2>
+
+    <ul>
+      <li>Revenue finished ₹3.31 lakh above budget.</li>
+      <li>Expense finished ₹0.61 lakh below budget.</li>
+      <li>Profit finished ₹3.92 lakh above budget.</li>
+      <li>Profit beat budget in 8 of 12 months.</li>
+      <li>July and August were the weakest months.</li>
+      <li>December and March were among the strongest months.</li>
+      <li>Expense control remained disciplined throughout the year.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Management Recommendations</h2>
+
+    <ul>
+      <li>Re-base July–August budget assumptions using actual seasonal performance.</li>
+      <li>Investigate September–December uplift for repeatable seasonal effects.</li>
+      <li>Prioritise deeper monthly variance review within Sales.</li>
+      <li>Maintain current expense discipline as a benchmark.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Project Deliverables</h2>
+
+    <div class="buttons">
+
+      <a class="button"
+         href="FMCG_Budget_vs_Actual_Dashboard.xlsx">
+         Download Excel Dashboard
+      </a>
+
+      <a class="button"
+         href="FMCG_Budget_vs_Actual_Report.pdf">
+         View Detailed Report
+      </a>
+
+      <a class="button"
+         href="EFOS_Finance_Hackathon_2026_Presentation.pptx">
+         View Presentation
+      </a>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Tools & Skills</h2>
+
+    <ul>
+      <li>Microsoft Excel</li>
+      <li>PivotTables</li>
+      <li>Excel Charts</li>
+      <li>Slicers</li>
+      <li>Financial Variance Analysis</li>
+      <li>FP&A Modelling</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Author</h2>
+
+    <p><strong>Amit Yadav</strong></p>
+    <p>MBA (Finance & Marketing)</p>
+    <p>United Institute of Management, Prayagraj</p>
+
+  </div>
+
+</div>
+
+<footer>
+  EFOS Global Finance Hackathon 2026 • Track 01 • Case 6
+</footer>
+
+</body>
+</html>
